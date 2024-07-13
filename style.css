@@ -1,0 +1,47 @@
+body 
+{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color:#dee0e3
+}
+
+.header_bar
+{
+    background-color:#1f2937;
+    padding: 10px;
+    margin-top: 0px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container
+{
+    margin-top: 50px;
+    display: grid;
+}
+
+.container #submission
+{
+    margin-left: 50px;
+}
+
+.container form div #location
+{
+    width: 15vw;
+    height: 4vh;
+}
+
+.container form #submit
+{
+    background-color:#1f2937;
+    width: 15.5vw;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 15px;
+    border-color: aliceblue;
+    height: 5vh;
+    cursor: pointer;
+    margin-top: 15px;
+}
