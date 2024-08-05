@@ -49,63 +49,18 @@ body
 .container #today_reading
 {
     background-color:#1f2937;
-    width: 66vw;
+    width: 70vw;
     height: 25vh;
     margin-left: 40px;
     border-radius: 5px;
     display: flex;
+    color:white;
+    gap: 550px;
+    font-size: 16px;
+
 }
 
-#four_day_reading
+#details
 {
-    background-color:#dee0e3;
-    width: 70vw;
-    height: 40vh;
-    margin-left: 330px;
-    margin-top: 40px;
-    border-radius: 5px;
-    display: flex;
-}
-
-#four_day_reading #first
-{
-    background-color:#535456;
-    width: 15vw;
-    height: 35vh;
-    border-radius: 5px;
-}
-
-#four_day_reading #second
-{
-    background-color:#535456;
-    width: 15vw;
-    height: 35vh;
-    margin-left: 30px;
-    /*margin-top: 40px;*/
-    border-radius: 5px;
-}
-
-#four_day_reading #third
-{
-    background-color:#535456;
-    width: 15vw;
-    height: 35vh;
-    margin-left: 30px;
-    /*margin-top: 40px;*/
-    border-radius: 5px;
-}
-
-#four_day_reading #fourth
-{
-    background-color:#535456;
-    width: 15vw;
-    height: 35vh;
-    margin-left: 30px;
-    /*margin-top: 40px;*/
-    border-radius: 5px;
-}
-
-#forecast_title
-{
-    margin-left: 330px;
+   padding-left: 10px;
 }
