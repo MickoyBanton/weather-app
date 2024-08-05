@@ -21,3 +21,6 @@ Usage
 1. Enter the name of the city in the input field.
 2. Click the "Submit" button.
 3. The weather details for the specified city will be displayed below the form.
+
+# Notes
+Replace YOUR_API_KEY with your actual OpenWeatherMap API key.
