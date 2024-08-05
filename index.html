@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Info</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" href="weather icon.png" type="image/x-icon">
+    <link rel="icon" href="weather favicon.png" type="image/x-icon">
     <script src="weatherApp.js"></script>
 </head>
 <body>
@@ -30,41 +30,30 @@
 
             <div id="today_reading">
 
+                    <template id="today_reading_template">
 
+                        <div id="details">
+                            <h3></h3>
+                            <p id="temp"></p>
+                            <p id="humidity"></p>
+                            <p id="wind"></p>
+                        </div>
+
+                    </template>
+
+                    <template id="weather_icon">
+
+                        <div id="icon">
+                            <img src="" alt="">
+                        </div>
+
+                    </template>
             </div>
 
 
         </div>
 
-        <h2 id="forecast_title">4 Day Forecast</h2>
-
-        <div id="four_day_reading">
-
-            
-
-            <div id="first">
-
-
-            </div>
-
-            <div id="second">
-
-
-            </div>
-
-            <div id="third">
-
-
-            </div>
-
-            <div id="fourth">
-
-
-            </div>
-
-
-
-        </div>
+        
 
 
     </main>
