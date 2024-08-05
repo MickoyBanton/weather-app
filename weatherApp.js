@@ -24,7 +24,7 @@ window.addEventListener('load', function ()
 
         console.log('City:', city);
 
-        const API_key = "d43c5225428a10140a37053d2a07a821";
+        const API_key = "";
 
         fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${API_key}`)
 
