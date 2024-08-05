@@ -40,7 +40,7 @@ window.addEventListener('load', function ()
             {
                 console.log(data);
 
-                currentTemp=data.main.temp/10;
+                currentTemp=(data.main.temp - 273.15);
                 currentTemp=currentTemp.toFixed(0)
                 humidity= data.main.humidity;
                 windSpeed=data.wind.speed.toFixed(2);
